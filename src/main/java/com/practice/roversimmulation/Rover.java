@@ -8,6 +8,10 @@ public class Rover {
         this.position = position;
     }
 
+    public Position getPosition() {
+        return position;
+    }
+
     public Rover moveNorth() {
         position.moveNorth();
         return this;
