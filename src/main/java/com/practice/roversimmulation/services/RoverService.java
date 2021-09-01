@@ -26,6 +26,11 @@ public class RoverService {
         return formatCoordinate();
     }
 
+    public String reset(){
+        rover.reset();
+        return formatCoordinate();
+    }
+
     private boolean isMoveNorth(String command) {
         return NORTH_COMMAND.equals(command);
     }

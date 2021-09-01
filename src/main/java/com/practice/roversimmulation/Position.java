@@ -48,4 +48,9 @@ public class Position {
                 ", y=" + y +
                 '}';
     }
+
+    public void reset(){
+        x=0;
+        y=0;
+    }
 }

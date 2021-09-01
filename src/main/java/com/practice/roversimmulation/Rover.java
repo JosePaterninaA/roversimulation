@@ -31,4 +31,9 @@ public class Rover {
         position.moveWest();
         return this;
     }
+
+    public Rover reset(){
+        position.reset();
+        return this;
+    }
 }
